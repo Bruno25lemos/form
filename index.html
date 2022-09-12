@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="logo1.png" type="image/x-icon">
+  <title>Login Cadastro</title>
+  <style>
+    body {
+      background-image:linear-gradient( 60deg, rgb(13, 142, 248), rgb(14, 25, 173));
+      font-family:arial;
+    }
+    #login {
+      text-align:center;
+      background-color: rgba(0, 0, 0, 1);
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      padding: 80px;
+      color:white;
+      border-radius:18px;
+}
+input {
+  padding:12px;
+  border:none;
+  outline:none;
+  font-size:15px;
+  font-weight:bold;
+  border-radius:5px;
+}
+button {
+  padding:15px;
+  width:100%;
+  cursor:pointer;
+  background-image: linear-gradient(40deg, rgb(25, 25, 201), rgb(11, 182, 182));
+  border:none;
+  border-radius:5px;
+  color:white;
+  font-size:17px;
+  font-weight:bold;
+}
+
+
+  </style>
+</head>
+<body>
+  <div id="login">
+    <h1>Login</h1>
+    <form action="post">
+        <input type="text" placeholder="Nome" required>
+        <br><br>
+        <input type="password" placeholder="Senha" required>
+        <br><br>
+        <button>Cadastrar</button>
+    </form>
+  </div>
+</body>
+</html>
